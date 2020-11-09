@@ -2,10 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: 0;
-}
-
-.bg {
-    background-color: #111111!important;
+    position: relative;
 }
 
 .navItems {
@@ -21,17 +18,66 @@
 
 .navItems:hover {
     border-bottom: 4px solid #e7b35a;
-    color: red;
+}
+
+.buttom-iteam {
+    margin-left: 40px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fdfdfd;
+    background-color: #e7b35a;
+    transition: all 0.2s;
+}
+
+.buttom-iteam:hover {
+    text-decoration: none;
+    color: #fdfdfd;
+    background-color: rgb(4, 4, 182);
+}
+
+.bannerLocation {
+    width: auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    height: 450px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
 }
 
 .bannerBg {
     background-image: url(./Banner\ 1.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 253px;
+    width: 100%;
+    height: 700px;
+}
+
+.bg {
+    background-color: #111111!important;
+}
+
+.bg1 {
+    height: 730px;
+    background-image: url(./Banner\ 2.jpg);
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 243px;
-    padding-bottom: 263px;
-    width: 100%;
-    position: relative;
-    height: auto;
+    padding-top: 70px;
+}
+
+.bg2 {
+    height: 763px;
+    background-color: #f5f5f5;
+    padding-top: 220px;
+}
+
+.content_aboutUs {
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

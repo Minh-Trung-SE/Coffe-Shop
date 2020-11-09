@@ -6,27 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="./index.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
-<body>
-    <footer class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg justify-content-center">
-            <a class="navbar-brand navItems" href="#about_us">About US</a>
-            <a class="navbar-brand navItems" href="#">Location</a>
-            <a class="navbar-brand navItems" href="#">Offer</a>
-            <a href="#home"><img src="./LogoCoffeeShop.jpg" style="width: 109px; height=45px;"></a>
-            <a class="navbar-brand navItems" href="#">Menu</a>
-            <a class="navbar-brand navItems" href="#">News</a>
-            <a class="navbar-brand navItems" href="#">Press</a>
-        </nav>
-    </footer>
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <section id="home" class="bannerBg">
+</head>
+
+<body>
+
+    <div id="home" class="bannerBg">
         <div class="container">
             <div class="row">
                 <div class="col-9 mx-auto">
@@ -38,13 +39,200 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <nav class="navbar navbar-expand-sm bg navbar-dark sticky-top">
+        <ul class="navbar-nav container justify-content-center">
+            <li class="nav-item">
+                <a class="navItems nav-link" href="#about_us">About US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navItems" href="#location">Location</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navItems" href="#">Offer</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#home"><img src="./LogoCoffeeShop.jpg" style="width: 109px; height=45px;"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navItems" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navItems" href="#">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navItems" href="#">Press</a>
+            </li>
+        </ul>
+    </nav>
 
-    <section id="about_us">
-        <p>Heloo</p>
-    </section>
+    <div id="about_us" class="bg2">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="./About Us.jpg" height="100%" width="100%">
+                </div>
+                <div class="col-6">
+                    <div class="row justify-content-center">
+                        <h2>About Seven Coffee</h2>
+                        <p class="content_aboutUs">Mattis ipsum dolor sit amet, vesena tomosi elit. Ut elit tellus, luctus nec kesa , pulvinar dapibus edworad elit quam, iaculis sed semper sit amet, sollicitudin vitae nibh moresa at magna eu augue semper euismod. Fusce commodo
+                            molestie luctus donec mollis nulla ipsum, vitae faucibus dui dapibus at fareras ullamcorper eget ipsum vel volutpat hasellus rhoncus in sapien tincidunt mollis. Sed elit quam, iaculis sed semper sit amet, sollicitudin vitae
+                            nibh.
+                        </p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div>
+                            <a href="#location" class="buttom-iteam" style="margin: 0;">Our Location</a>
+                        </div>
+                        <div>
+                            <a href="#" class="buttom-iteam">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
+        </div>
+    </div>
+
+    <div id="location" class="bg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 mx-auto text-white font-weight-bold">
+                    <h2>Location</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 mx-auto">
+                    <div class="bannerLocation">
+                        <div class="col justify-content-center">
+                            <img src="./location.jpg" style="height: 55%; width: 100%;">
+                        </div>
+                        <div class="col">
+                            <p class="justify-content-center">Morbi vel nisi condimentum, efficitur orci at, vehicula velit. Maecenas ut euismod diam. Integer aliquet turpis eunis!</p>
+                        </div>
+                        <div class="col justify-content-center">
+                            <div class="row">
+                                <div class="col-2">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="col-10 font-weight-bold">
+                                    <span>43 Le Van Viet Street, 9 Distric, HCM</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="col-10 font-weight-bold">
+                                    <span>0335840115</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="col-10 font-weight-bold">
+                                    <span>Open: 9 AM / 22 PM</span>
+                                    <br>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button type="button" class="btn-sm btn-warning mx-auto font-weight-bold text-white">See on Map</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 mx-auto">
+                    <div class="bannerLocation">
+                        <div class="col justify-content-center">
+                            <img src="./location.jpg" style="height: 55%; width: 100%;">
+                        </div>
+                        <div class="col justify-content-center">
+                            <p>Morbi vel nisi condimentum, efficitur orci at, vehicula velit. Maecenas ut euismod diam. Integer aliquet turpis eunis!</p>
+                        </div>
+                        <div class="col justify-content-center">
+                            <div class="row">
+                                <div class="col-2">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="col-10 font-weight-bold">
+                                    <span>43 Le Van Viet Street, 9 Distric, HCM</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="col-10 font-weight-bold">
+                                    <span>0335840115</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="col-10 font-weight-bold">
+                                    <span>Open: 9 AM / 22 PM</span>
+                                    <br>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button type="button" class="btn-sm btn-warning mx-auto font-weight-bold text-white">See on Map</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 mx-auto">
+                    <div class="bannerLocation">
+                        <div class="col justify-content-center">
+                            <img src="./location.jpg" style="height: 55%; width: 100%;">
+                        </div>
+                        <div class="col justify-content-center">
+                            <p>Morbi vel nisi condimentum, efficitur orci at, vehicula velit. Maecenas ut euismod diam. Integer aliquet turpis eunis!</p>
+                        </div>
+                        <div class="col justify-content-center">
+                            <div class="row">
+                                <div class="col-2">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="col-10 font-weight-bold">
+                                    <span>43 Le Van Viet Street, 9 Distric, HCM</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="col-10 font-weight-bold">
+                                    <span>0335840115</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="col-10 font-weight-bold">
+                                    <span>Open: 9 AM / 22 PM</span>
+                                    <br>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button type="button" class="btn-sm btn-warning mx-auto font-weight-bold text-white">See on Map</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 </body>
 
 </html>
