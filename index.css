@@ -21,7 +21,6 @@
 }
 
 .buttom-iteam {
-    margin-left: 40px;
     padding: 5px 10px;
     cursor: pointer;
     font-weight: bold;
@@ -36,43 +35,51 @@
     background-color: rgb(4, 4, 182);
 }
 
-.bannerLocation {
-    width: auto;
-    margin-top: 50px;
-    padding-top: 30px;
-    height: 450px;
-    padding-bottom: 30px;
-    background-color: #ffffff;
-}
 
-.bannerBg {
-    background-image: url(./Banner\ 1.jpg);
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 243px;
-    width: 100%;
-    height: 686px;
-}
-
-.bg {
-    background-color: #111111!important;
-}
+/*Location*/
 
 .bg1 {
-    height: 730px;
     background-image: url(./Banner\ 2.jpg);
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 70px;
+    padding-bottom: 130px;
+}
+
+.bannerLocation {
+    background-color: #ffffff;
+}
+
+.bannerLocation:hover {
+    box-shadow: 5px 5px 11px #04b63fd2;
+}
+
+
+/*Home*/
+
+.bannerBg {
+    background-image: url(./Banner\ 1.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 280px;
+    padding-bottom: 280px;
+}
+
+.bg {
+    background-color: #111111!important;
 }
 
 .bg2 {
-    height: 763px;
     background-color: #f5f5f5;
-    padding-top: 220px;
+    height: 100%;
+    width: 100%;
+    padding-top: 250px;
+    padding-bottom: 230px;
 }
 
 .content_aboutUs {
@@ -80,4 +87,125 @@
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+
+/*CSS Section Menu*/
+
+.bgMenu {
+    background-color: #f5f5f5;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.nameFood {
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.priceFood {
+    line-height: 26px;
+    font-size: 14px;
+    color: #04b63fd2;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+/* CSS Section Offer*/
+
+.bgOffer {
+    height: 100%;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    background-color: #ffffff;
+}
+
+.iteamOffer {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.iteamOfferPrice {
+    font-weight: bold;
+    font-size: 18px;
+    color: #e7b35a;
+}
+
+.border {
+    height: 2px;
+    width: 100%;
+    border-style: dashed;
+    border-bottom-color: rgb(201, 76, 76);
+}
+
+
+/* Css Section press*/
+
+.bgPress {
+    background-image: url(./Banner\ 3.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 230px;
+}
+
+.boxPress {
+    height: auto;
+    width: 95%;
+    padding: 2%;
+    height: 400px;
+    background: #ffffff;
+    transition: all 0.3s;
+}
+
+.boxPress:hover {
+    box-shadow: 5px 5px 5px blue;
+}
+
+.textBoxpress {
+    color: #8b8b8b;
+    font-size: 15px;
+}
+
+.textBoxpress2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*Section News*/
+
+.bgNews {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+}
+
+.bgBoxNews {
+    width: 95%;
+    transition: all, 0.2s;
+    background-color: #f5f5f5;
+    /* margin-bottom: 20px; */
+}
+
+.bgBoxNews:hover {
+    box-shadow: 5px 5px 5px blue;
+}
+
+.readMore {
+    font-weight: bold;
+    color: black;
+    transition: all, 0.2s;
+    margin-bottom: 5px;
+}
+
+.readMore:hover {
+    text-decoration: none;
+    color: rgb(241, 4, 4);
 }
