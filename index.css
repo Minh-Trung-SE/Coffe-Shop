@@ -5,6 +5,9 @@
     position: relative;
 }
 
+
+/*Navbar*/
+
 .navItems {
     height: 45px;
     width: 100px;
@@ -34,6 +37,18 @@
     color: #fdfdfd;
     border-radius: 5px;
     background-color: rgb(4, 4, 182);
+}
+
+@media screen and (min-width: 960px) {
+    .navbar2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .navbar1 {
+        display: none;
+    }
 }
 
 
