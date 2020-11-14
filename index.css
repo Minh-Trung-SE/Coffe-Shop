@@ -70,13 +70,13 @@
     background-color: rgb(4, 4, 182);
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 800px) {
     .navbar2 {
         display: none;
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 800px) {
     .navbar1 {
         display: none;
     }
