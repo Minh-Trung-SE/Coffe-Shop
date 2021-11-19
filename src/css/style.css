@@ -86,7 +86,7 @@
 /*Location*/
 
 .bg1 {
-    background-image: url(/src/img/banner/Banner_2.jpg);
+    background-image: url(../img/banner/Banner_2.jpg);
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@
 /*Home*/
 
 .bannerBg {
-    background-image: url(/src/img/banner/Banner_1.jpg);
+    background-image: url(../img/banner/Banner_1.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,7 +224,7 @@
 /* Css Section press*/
 
 .bgPress {
-    background-image: url(/src/img/banner/Banner_3.jpg);
+    background-image: url(../img/banner/Banner_3.jpg);
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
